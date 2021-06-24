@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import { AlignmentProvider } from 'alignment-editor-rcl';
+import AlignmentEditor from './components/AlignmentEditor';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <AlignmentProvider>
+        <AlignmentEditor />
+      </AlignmentProvider>
       </header>
     </div>
   );
-}
+};
 
 export default App;
