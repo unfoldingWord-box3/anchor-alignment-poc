@@ -2618,10 +2618,10 @@ ajv@^7.0.2:
     require-from-string "^2.0.2"
     uri-js "^4.2.2"
 
-alignment-editor-rcl@^0.1.4:
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/alignment-editor-rcl/-/alignment-editor-rcl-0.1.4.tgz#67058e721f88a8117675f51b4fca6b97868cb6bc"
-  integrity sha512-PE1PU2q04jjx4PvdLy2nHIsgxlM49bUJg6mVDgm0BPsF/BIn2RHo1ggbFy6gDQm/2Kn6yWruvDvPrL31NPqgGA==
+alignment-editor-rcl@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/alignment-editor-rcl/-/alignment-editor-rcl-0.2.1.tgz#ae8b8ff80c4ea46d9395149b23c77978b72b3749"
+  integrity sha512-TeETUwd5fqF6FPWaAtN9JcIMGx+S7d83CD/nv0bPHwsFZddf16Y28MloDeIAXr6dU7XTeCVrh1UhOLC3XctoGQ==
   dependencies:
     "@fortawesome/fontawesome-svg-core" "^1.2.32"
     "@fortawesome/free-solid-svg-icons" "^5.15.1"
@@ -11995,6 +11995,13 @@ string-natural-compare@^3.0.1:
   resolved "https://registry.yarnpkg.com/string-natural-compare/-/string-natural-compare-3.0.1.tgz#7a42d58474454963759e8e8b7ae63d71c1e7fdf4"
   integrity sha512-n3sPwynL1nwKi3WJ6AIsClwBMa0zTi54fn2oLU6ndfTSIO05xaznjSf15PcBZU6FNWbmN5Q6cxT4V5hGvB4taw==
 
+string-punctuation-tokenizer@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/string-punctuation-tokenizer/-/string-punctuation-tokenizer-2.1.2.tgz#db2b5707bbab6d20540ebf0fd49c18280d94d898"
+  integrity sha512-jFVSLxWca5xIjaoi8vTSipXXK0Ng3+BdbfAtjCgqS4ZxHTGLYvKrGaARpATtBHIAOEMXhwMaBKLrypnyQ6cR6A==
+  dependencies:
+    xregexp "^4.1.1"
+
 string-width@^3.0.0, string-width@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-3.1.0.tgz#22767be21b62af1081574306f69ac51b62203961"
@@ -13608,10 +13615,17 @@ xmlchars@^2.2.0:
   resolved "https://registry.yarnpkg.com/xmlchars/-/xmlchars-2.2.0.tgz#060fe1bcb7f9c76fe2a17db86a9bc3ab894210cb"
   integrity sha512-JZnDKK8B0RCDw84FNdDAIpZK+JuJw+s7Lz8nksI7SIuU3UXJJslUthsi+uWBUYOwPFwW7W7PRLRfUKpxjtjFCw==
 
-xregexp@^4.4.0, xregexp@^4.4.1:
+xregexp@^4.1.1, xregexp@^4.4.0, xregexp@^4.4.1:
   version "4.4.1"
   resolved "https://registry.yarnpkg.com/xregexp/-/xregexp-4.4.1.tgz#c84a88fa79e9ab18ca543959712094492185fe65"
   integrity sha512-2u9HwfadaJaY9zHtRRnH6BY6CQVNQKkYm3oLtC9gJXXzfsbACg5X5e4EZZGVAH+YIfa+QA9lsFQTTe3HURF3ag==
+  dependencies:
+    "@babel/runtime-corejs3" "^7.12.1"
+
+xregexp@^5.0.2:
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/xregexp/-/xregexp-5.0.2.tgz#798aa7757836f39cdbdeeba3daf94d75f7a9dcc1"
+  integrity sha512-JPNfN40YMNSDxZrahMrmtNH1QqPJp0/qNeEJM2nnOlhcBdfCCjekPYFV2OnwKxwvpEYglH1RBotbpRRaEuCG8Q==
   dependencies:
     "@babel/runtime-corejs3" "^7.12.1"
 
