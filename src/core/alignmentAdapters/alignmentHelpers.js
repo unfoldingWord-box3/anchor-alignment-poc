@@ -3,12 +3,12 @@ import {tokenize} from 'string-punctuation-tokenizer';
 
 // bridge: aligned USFM bible
 // target: (un-)aligned USFM bible.
-export const getAlignmentFromProskomma = ({sourceDocument, targetDocument}) => {
+export const getAlignmentFromProskomma = async ({sourceDocument, targetDocument}) => {
   // Reusable: Word tokens with alignment (where available).
   // Transforms Proskomma into uW helpful object.
   // (Transforms GraphQL --> into helpful object.)
-  const sourceTokens = getTokensFromProskomma({bibleDocument: sourceDocument});
-  const targetTokens = getTokensFromProskomma({bibleDocument: targetDocument});
+  const sourceTokens = await getTokensFromProskomma({bibleDocument: sourceDocument});
+  const targetTokens = await getTokensFromProskomma({bibleDocument: targetDocument});
 
   // Transform uW helpful object --> for alignment-editor-rcl.
   const sourceSegments = getSegmentsFromTokens({tokens: sourceTokens});
@@ -80,6 +80,7 @@ const _wordOrNumber = '(' + _word + '|' + _number + ')';
 
 // POS for source/original text:
 const SCOPE_FILTER_SPANWITHATTS_XMORPH_1 = xRegExp('attribute/spanWithAtts/w/x-morph/1/(' + _wordOrNumber + '+)');
+const SCOPE_FILTER_SPANWITHATTS_XSTRONG_0 = xRegExp('attribute/spanWithAtts/w/strong/0/([\\w\\d]+)');
 
 // ZALN
 // POS for GL text:
@@ -89,7 +90,7 @@ const SCOPE_FILTER_ZALN_XCONTENT = xRegExp('attribute/milestone/zaln/x-content/0
 const SCOPE_FILTER_ZALN_OCCURRENCE = /attribute\/milestone\/zaln\/x-occurrence\/0\/(\d)/i;
 const SCOPE_FILTER_ZALN_OCCURRENCES = /attribute\/milestone\/zaln\/x-occurrences\/0\/(\d)/i;
 
-const getTokensFromProskomma = ({bibleDocument}) => {
+export const getTokensFromProskomma = async ({bibleDocument}) => {
   const SCOPE_SPANWITHATTS_W = "spanWithAtts/w";
 
   let alignments = bibleDocument && bibleDocument.cv[0].tokens.map((token) => {
@@ -103,12 +104,14 @@ const getTokensFromProskomma = ({bibleDocument}) => {
 
     if (isWord) {
       // Transform Proskomma into uW.
+      // TODO: detect "spanWithAttributes" scopes or "zaln" scopes.
       return {
         payload: tokenized[0],
         //alignedToken: getAlignedToken({token}),
         alignedToken: getAttributeFromScopes({scopes: token.scopes, scopeFilter: SCOPE_FILTER_ZALN_XCONTENT}),
         occurrence: parseInt(getAttributeFromScopes({scopes: token.scopes, scopeFilter: SCOPE_FILTER_ZALN_OCCURRENCE})) || null,
-        occurrences: getAttributeFromScopes({scopes: token.scopes, scopeFilter: SCOPE_FILTER_ZALN_OCCURRENCES}),
+        occurrences: parseInt(getAttributeFromScopes({scopes: token.scopes, scopeFilter: SCOPE_FILTER_ZALN_OCCURRENCES})) || null,
+        strong: getAttributeFromScopes({scopes: token.scopes, scopeFilter: SCOPE_FILTER_SPANWITHATTS_XSTRONG_0}),
         pos: getAttributeFromScopes({scopes: token.scopes, scopeFilter: SCOPE_FILTER_SPANWITHATTS_XMORPH_1})
               || getAttributeFromScopes({scopes: token.scopes, scopeFilter: SCOPE_FILTER_ZALN_XMORPH_1})
       }

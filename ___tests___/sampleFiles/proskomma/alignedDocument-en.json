@@ -1,0 +1,1208 @@
+{
+	"cv": [
+		{
+			"tokens": [
+				{
+					"payload": "Paul",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G39720",
+						"attribute/milestone/zaln/x-lemma/0/Παῦλος",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/N",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/",
+						"attribute/milestone/zaln/x-morph/6/NMS",
+						"attribute/milestone/zaln/x-morph/7/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/1",
+						"attribute/milestone/zaln/x-content/0/Παῦλος",
+						"spanWithAtts/w",
+						"attribute/spanWithAtts/w/x-occurrence/0/1",
+						"attribute/spanWithAtts/w/x-occurrences/0/1"
+					]
+				},
+				{
+					"payload": ",",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1"
+					]
+				},
+				{
+					"payload": "\n",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1"
+					]
+				},
+				{
+					"payload": "a",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G14010",
+						"attribute/milestone/zaln/x-lemma/0/δοῦλος",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/N",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/",
+						"attribute/milestone/zaln/x-morph/6/NMS",
+						"attribute/milestone/zaln/x-morph/7/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/1",
+						"attribute/milestone/zaln/x-content/0/δοῦλος",
+						"spanWithAtts/w",
+						"attribute/spanWithAtts/w/x-occurrence/0/1",
+						"attribute/spanWithAtts/w/x-occurrences/0/1"
+					]
+				},
+				{
+					"payload": "\n",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G14010",
+						"attribute/milestone/zaln/x-lemma/0/δοῦλος",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/N",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/",
+						"attribute/milestone/zaln/x-morph/6/NMS",
+						"attribute/milestone/zaln/x-morph/7/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/1",
+						"attribute/milestone/zaln/x-content/0/δοῦλος"
+					]
+				},
+				{
+					"payload": "servant",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G14010",
+						"attribute/milestone/zaln/x-lemma/0/δοῦλος",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/N",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/",
+						"attribute/milestone/zaln/x-morph/6/NMS",
+						"attribute/milestone/zaln/x-morph/7/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/1",
+						"attribute/milestone/zaln/x-content/0/δοῦλος",
+						"spanWithAtts/w",
+						"attribute/spanWithAtts/w/x-occurrence/0/1",
+						"attribute/spanWithAtts/w/x-occurrences/0/1"
+					]
+				},
+				{
+					"payload": "\n",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1"
+					]
+				},
+				{
+					"payload": "of",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G23160",
+						"attribute/milestone/zaln/x-lemma/0/θεός",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/N",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/",
+						"attribute/milestone/zaln/x-morph/6/GMS",
+						"attribute/milestone/zaln/x-morph/7/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/2",
+						"attribute/milestone/zaln/x-content/0/Θεοῦ",
+						"spanWithAtts/w",
+						"attribute/spanWithAtts/w/x-occurrence/0/1",
+						"attribute/spanWithAtts/w/x-occurrences/0/5"
+					]
+				},
+				{
+					"payload": "\n",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G23160",
+						"attribute/milestone/zaln/x-lemma/0/θεός",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/N",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/",
+						"attribute/milestone/zaln/x-morph/6/GMS",
+						"attribute/milestone/zaln/x-morph/7/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/2",
+						"attribute/milestone/zaln/x-content/0/Θεοῦ"
+					]
+				},
+				{
+					"payload": "God",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G23160",
+						"attribute/milestone/zaln/x-lemma/0/θεός",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/N",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/",
+						"attribute/milestone/zaln/x-morph/6/GMS",
+						"attribute/milestone/zaln/x-morph/7/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/2",
+						"attribute/milestone/zaln/x-content/0/Θεοῦ",
+						"spanWithAtts/w",
+						"attribute/spanWithAtts/w/x-occurrence/0/1",
+						"attribute/spanWithAtts/w/x-occurrences/0/2"
+					]
+				},
+				{
+					"payload": "\n",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1"
+					]
+				},
+				{
+					"payload": "and",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G11610",
+						"attribute/milestone/zaln/x-lemma/0/δέ",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/CC",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/",
+						"attribute/milestone/zaln/x-morph/6/",
+						"attribute/milestone/zaln/x-morph/7/",
+						"attribute/milestone/zaln/x-morph/8/",
+						"attribute/milestone/zaln/x-morph/9/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/1",
+						"attribute/milestone/zaln/x-content/0/δὲ",
+						"spanWithAtts/w",
+						"attribute/spanWithAtts/w/x-occurrence/0/1",
+						"attribute/spanWithAtts/w/x-occurrences/0/2"
+					]
+				},
+				{
+					"payload": "\n",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1"
+					]
+				},
+				{
+					"payload": "an",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G06520",
+						"attribute/milestone/zaln/x-lemma/0/ἀπόστολος",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/N",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/",
+						"attribute/milestone/zaln/x-morph/6/NMS",
+						"attribute/milestone/zaln/x-morph/7/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/1",
+						"attribute/milestone/zaln/x-content/0/ἀπόστολος",
+						"spanWithAtts/w",
+						"attribute/spanWithAtts/w/x-occurrence/0/1",
+						"attribute/spanWithAtts/w/x-occurrences/0/1"
+					]
+				},
+				{
+					"payload": "\n",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G06520",
+						"attribute/milestone/zaln/x-lemma/0/ἀπόστολος",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/N",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/",
+						"attribute/milestone/zaln/x-morph/6/NMS",
+						"attribute/milestone/zaln/x-morph/7/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/1",
+						"attribute/milestone/zaln/x-content/0/ἀπόστολος"
+					]
+				},
+				{
+					"payload": "apostle",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G06520",
+						"attribute/milestone/zaln/x-lemma/0/ἀπόστολος",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/N",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/",
+						"attribute/milestone/zaln/x-morph/6/NMS",
+						"attribute/milestone/zaln/x-morph/7/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/1",
+						"attribute/milestone/zaln/x-content/0/ἀπόστολος",
+						"spanWithAtts/w",
+						"attribute/spanWithAtts/w/x-occurrence/0/1",
+						"attribute/spanWithAtts/w/x-occurrences/0/1"
+					]
+				},
+				{
+					"payload": "\n",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1"
+					]
+				},
+				{
+					"payload": "of",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G24240",
+						"attribute/milestone/zaln/x-lemma/0/Ἰησοῦς",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/N",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/",
+						"attribute/milestone/zaln/x-morph/6/GMS",
+						"attribute/milestone/zaln/x-morph/7/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/1",
+						"attribute/milestone/zaln/x-content/0/Ἰησοῦ",
+						"spanWithAtts/w",
+						"attribute/spanWithAtts/w/x-occurrence/0/2",
+						"attribute/spanWithAtts/w/x-occurrences/0/5"
+					]
+				},
+				{
+					"payload": "\n",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G24240",
+						"attribute/milestone/zaln/x-lemma/0/Ἰησοῦς",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/N",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/",
+						"attribute/milestone/zaln/x-morph/6/GMS",
+						"attribute/milestone/zaln/x-morph/7/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/1",
+						"attribute/milestone/zaln/x-content/0/Ἰησοῦ"
+					]
+				},
+				{
+					"payload": "Jesus",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G24240",
+						"attribute/milestone/zaln/x-lemma/0/Ἰησοῦς",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/N",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/",
+						"attribute/milestone/zaln/x-morph/6/GMS",
+						"attribute/milestone/zaln/x-morph/7/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/1",
+						"attribute/milestone/zaln/x-content/0/Ἰησοῦ",
+						"spanWithAtts/w",
+						"attribute/spanWithAtts/w/x-occurrence/0/1",
+						"attribute/spanWithAtts/w/x-occurrences/0/1"
+					]
+				},
+				{
+					"payload": "\n",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1"
+					]
+				},
+				{
+					"payload": "Christ",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G55470",
+						"attribute/milestone/zaln/x-lemma/0/χριστός",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/N",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/",
+						"attribute/milestone/zaln/x-morph/6/GMS",
+						"attribute/milestone/zaln/x-morph/7/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/1",
+						"attribute/milestone/zaln/x-content/0/Χριστοῦ",
+						"spanWithAtts/w",
+						"attribute/spanWithAtts/w/x-occurrence/0/1",
+						"attribute/spanWithAtts/w/x-occurrences/0/1"
+					]
+				},
+				{
+					"payload": ",",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1"
+					]
+				},
+				{
+					"payload": "\n",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1"
+					]
+				},
+				{
+					"payload": "for",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G25960",
+						"attribute/milestone/zaln/x-lemma/0/κατά",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/P",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/",
+						"attribute/milestone/zaln/x-morph/6/A",
+						"attribute/milestone/zaln/x-morph/7/",
+						"attribute/milestone/zaln/x-morph/8/",
+						"attribute/milestone/zaln/x-morph/9/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/1",
+						"attribute/milestone/zaln/x-content/0/κατὰ",
+						"spanWithAtts/w",
+						"attribute/spanWithAtts/w/x-occurrence/0/1",
+						"attribute/spanWithAtts/w/x-occurrences/0/1"
+					]
+				},
+				{
+					"payload": "\n",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1"
+					]
+				},
+				{
+					"payload": "the",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G41020",
+						"attribute/milestone/zaln/x-lemma/0/πίστις",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/N",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/",
+						"attribute/milestone/zaln/x-morph/6/AFS",
+						"attribute/milestone/zaln/x-morph/7/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/1",
+						"attribute/milestone/zaln/x-content/0/πίστιν",
+						"spanWithAtts/w",
+						"attribute/spanWithAtts/w/x-occurrence/0/1",
+						"attribute/spanWithAtts/w/x-occurrences/0/4"
+					]
+				},
+				{
+					"payload": "\n",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G41020",
+						"attribute/milestone/zaln/x-lemma/0/πίστις",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/N",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/",
+						"attribute/milestone/zaln/x-morph/6/AFS",
+						"attribute/milestone/zaln/x-morph/7/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/1",
+						"attribute/milestone/zaln/x-content/0/πίστιν"
+					]
+				},
+				{
+					"payload": "faith",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G41020",
+						"attribute/milestone/zaln/x-lemma/0/πίστις",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/N",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/",
+						"attribute/milestone/zaln/x-morph/6/AFS",
+						"attribute/milestone/zaln/x-morph/7/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/1",
+						"attribute/milestone/zaln/x-content/0/πίστιν",
+						"spanWithAtts/w",
+						"attribute/spanWithAtts/w/x-occurrence/0/1",
+						"attribute/spanWithAtts/w/x-occurrences/0/1"
+					]
+				},
+				{
+					"payload": "\n",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1"
+					]
+				},
+				{
+					"payload": "of",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G15880",
+						"attribute/milestone/zaln/x-lemma/0/ἐκλεκτός",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/NS",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/GMP",
+						"attribute/milestone/zaln/x-morph/6/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/1",
+						"attribute/milestone/zaln/x-content/0/ἐκλεκτῶν",
+						"spanWithAtts/w",
+						"attribute/spanWithAtts/w/x-occurrence/0/3",
+						"attribute/spanWithAtts/w/x-occurrences/0/5"
+					]
+				},
+				{
+					"payload": "\n",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G15880",
+						"attribute/milestone/zaln/x-lemma/0/ἐκλεκτός",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/NS",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/GMP",
+						"attribute/milestone/zaln/x-morph/6/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/1",
+						"attribute/milestone/zaln/x-content/0/ἐκλεκτῶν"
+					]
+				},
+				{
+					"payload": "the",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G15880",
+						"attribute/milestone/zaln/x-lemma/0/ἐκλεκτός",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/NS",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/GMP",
+						"attribute/milestone/zaln/x-morph/6/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/1",
+						"attribute/milestone/zaln/x-content/0/ἐκλεκτῶν",
+						"spanWithAtts/w",
+						"attribute/spanWithAtts/w/x-occurrence/0/2",
+						"attribute/spanWithAtts/w/x-occurrences/0/4"
+					]
+				},
+				{
+					"payload": "\n",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G15880",
+						"attribute/milestone/zaln/x-lemma/0/ἐκλεκτός",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/NS",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/GMP",
+						"attribute/milestone/zaln/x-morph/6/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/1",
+						"attribute/milestone/zaln/x-content/0/ἐκλεκτῶν"
+					]
+				},
+				{
+					"payload": "chosen",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G15880",
+						"attribute/milestone/zaln/x-lemma/0/ἐκλεκτός",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/NS",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/GMP",
+						"attribute/milestone/zaln/x-morph/6/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/1",
+						"attribute/milestone/zaln/x-content/0/ἐκλεκτῶν",
+						"spanWithAtts/w",
+						"attribute/spanWithAtts/w/x-occurrence/0/1",
+						"attribute/spanWithAtts/w/x-occurrences/0/1"
+					]
+				},
+				{
+					"payload": "\n",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G15880",
+						"attribute/milestone/zaln/x-lemma/0/ἐκλεκτός",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/NS",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/GMP",
+						"attribute/milestone/zaln/x-morph/6/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/1",
+						"attribute/milestone/zaln/x-content/0/ἐκλεκτῶν"
+					]
+				},
+				{
+					"payload": "people",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G15880",
+						"attribute/milestone/zaln/x-lemma/0/ἐκλεκτός",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/NS",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/GMP",
+						"attribute/milestone/zaln/x-morph/6/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/1",
+						"attribute/milestone/zaln/x-content/0/ἐκλεκτῶν",
+						"spanWithAtts/w",
+						"attribute/spanWithAtts/w/x-occurrence/0/1",
+						"attribute/spanWithAtts/w/x-occurrences/0/1"
+					]
+				},
+				{
+					"payload": "\n",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1"
+					]
+				},
+				{
+					"payload": "of",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G23160",
+						"attribute/milestone/zaln/x-lemma/0/θεός",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/N",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/",
+						"attribute/milestone/zaln/x-morph/6/GMS",
+						"attribute/milestone/zaln/x-morph/7/",
+						"attribute/milestone/zaln/x-occurrence/0/2",
+						"attribute/milestone/zaln/x-occurrences/0/2",
+						"attribute/milestone/zaln/x-content/0/Θεοῦ",
+						"spanWithAtts/w",
+						"attribute/spanWithAtts/w/x-occurrence/0/4",
+						"attribute/spanWithAtts/w/x-occurrences/0/5"
+					]
+				},
+				{
+					"payload": "\n",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G23160",
+						"attribute/milestone/zaln/x-lemma/0/θεός",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/N",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/",
+						"attribute/milestone/zaln/x-morph/6/GMS",
+						"attribute/milestone/zaln/x-morph/7/",
+						"attribute/milestone/zaln/x-occurrence/0/2",
+						"attribute/milestone/zaln/x-occurrences/0/2",
+						"attribute/milestone/zaln/x-content/0/Θεοῦ"
+					]
+				},
+				{
+					"payload": "God",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G23160",
+						"attribute/milestone/zaln/x-lemma/0/θεός",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/N",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/",
+						"attribute/milestone/zaln/x-morph/6/GMS",
+						"attribute/milestone/zaln/x-morph/7/",
+						"attribute/milestone/zaln/x-occurrence/0/2",
+						"attribute/milestone/zaln/x-occurrences/0/2",
+						"attribute/milestone/zaln/x-content/0/Θεοῦ",
+						"spanWithAtts/w",
+						"attribute/spanWithAtts/w/x-occurrence/0/2",
+						"attribute/spanWithAtts/w/x-occurrences/0/2"
+					]
+				},
+				{
+					"payload": "\n",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1"
+					]
+				},
+				{
+					"payload": "and",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G25320",
+						"attribute/milestone/zaln/x-lemma/0/καί",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/CC",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/",
+						"attribute/milestone/zaln/x-morph/6/",
+						"attribute/milestone/zaln/x-morph/7/",
+						"attribute/milestone/zaln/x-morph/8/",
+						"attribute/milestone/zaln/x-morph/9/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/1",
+						"attribute/milestone/zaln/x-content/0/καὶ",
+						"spanWithAtts/w",
+						"attribute/spanWithAtts/w/x-occurrence/0/2",
+						"attribute/spanWithAtts/w/x-occurrences/0/2"
+					]
+				},
+				{
+					"payload": "\n",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1"
+					]
+				},
+				{
+					"payload": "the",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G19220",
+						"attribute/milestone/zaln/x-lemma/0/ἐπίγνωσις",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/N",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/",
+						"attribute/milestone/zaln/x-morph/6/AFS",
+						"attribute/milestone/zaln/x-morph/7/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/1",
+						"attribute/milestone/zaln/x-content/0/ἐπίγνωσιν",
+						"spanWithAtts/w",
+						"attribute/spanWithAtts/w/x-occurrence/0/3",
+						"attribute/spanWithAtts/w/x-occurrences/0/4"
+					]
+				},
+				{
+					"payload": "\n",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G19220",
+						"attribute/milestone/zaln/x-lemma/0/ἐπίγνωσις",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/N",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/",
+						"attribute/milestone/zaln/x-morph/6/AFS",
+						"attribute/milestone/zaln/x-morph/7/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/1",
+						"attribute/milestone/zaln/x-content/0/ἐπίγνωσιν"
+					]
+				},
+				{
+					"payload": "knowledge",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G19220",
+						"attribute/milestone/zaln/x-lemma/0/ἐπίγνωσις",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/N",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/",
+						"attribute/milestone/zaln/x-morph/6/AFS",
+						"attribute/milestone/zaln/x-morph/7/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/1",
+						"attribute/milestone/zaln/x-content/0/ἐπίγνωσιν",
+						"spanWithAtts/w",
+						"attribute/spanWithAtts/w/x-occurrence/0/1",
+						"attribute/spanWithAtts/w/x-occurrences/0/1"
+					]
+				},
+				{
+					"payload": "\n",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1"
+					]
+				},
+				{
+					"payload": "of",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G02250",
+						"attribute/milestone/zaln/x-lemma/0/ἀλήθεια",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/N",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/",
+						"attribute/milestone/zaln/x-morph/6/GFS",
+						"attribute/milestone/zaln/x-morph/7/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/1",
+						"attribute/milestone/zaln/x-content/0/ἀληθείας",
+						"spanWithAtts/w",
+						"attribute/spanWithAtts/w/x-occurrence/0/5",
+						"attribute/spanWithAtts/w/x-occurrences/0/5"
+					]
+				},
+				{
+					"payload": "\n",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G02250",
+						"attribute/milestone/zaln/x-lemma/0/ἀλήθεια",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/N",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/",
+						"attribute/milestone/zaln/x-morph/6/GFS",
+						"attribute/milestone/zaln/x-morph/7/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/1",
+						"attribute/milestone/zaln/x-content/0/ἀληθείας"
+					]
+				},
+				{
+					"payload": "the",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G02250",
+						"attribute/milestone/zaln/x-lemma/0/ἀλήθεια",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/N",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/",
+						"attribute/milestone/zaln/x-morph/6/GFS",
+						"attribute/milestone/zaln/x-morph/7/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/1",
+						"attribute/milestone/zaln/x-content/0/ἀληθείας",
+						"spanWithAtts/w",
+						"attribute/spanWithAtts/w/x-occurrence/0/4",
+						"attribute/spanWithAtts/w/x-occurrences/0/4"
+					]
+				},
+				{
+					"payload": "\n",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G02250",
+						"attribute/milestone/zaln/x-lemma/0/ἀλήθεια",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/N",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/",
+						"attribute/milestone/zaln/x-morph/6/GFS",
+						"attribute/milestone/zaln/x-morph/7/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/1",
+						"attribute/milestone/zaln/x-content/0/ἀληθείας"
+					]
+				},
+				{
+					"payload": "truth",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G02250",
+						"attribute/milestone/zaln/x-lemma/0/ἀλήθεια",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/N",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/",
+						"attribute/milestone/zaln/x-morph/6/GFS",
+						"attribute/milestone/zaln/x-morph/7/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/1",
+						"attribute/milestone/zaln/x-content/0/ἀληθείας",
+						"spanWithAtts/w",
+						"attribute/spanWithAtts/w/x-occurrence/0/1",
+						"attribute/spanWithAtts/w/x-occurrences/0/1"
+					]
+				},
+				{
+					"payload": "\n",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1"
+					]
+				},
+				{
+					"payload": "that",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G35880",
+						"attribute/milestone/zaln/x-lemma/0/ὁ",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/RR",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/GFS",
+						"attribute/milestone/zaln/x-morph/6/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/1",
+						"attribute/milestone/zaln/x-content/0/τῆς",
+						"spanWithAtts/w",
+						"attribute/spanWithAtts/w/x-occurrence/0/1",
+						"attribute/spanWithAtts/w/x-occurrences/0/1"
+					]
+				},
+				{
+					"payload": "\n",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1"
+					]
+				},
+				{
+					"payload": "agrees",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G25960",
+						"attribute/milestone/zaln/x-lemma/0/κατά",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/P",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/",
+						"attribute/milestone/zaln/x-morph/6/A",
+						"attribute/milestone/zaln/x-morph/7/",
+						"attribute/milestone/zaln/x-morph/8/",
+						"attribute/milestone/zaln/x-morph/9/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/1",
+						"attribute/milestone/zaln/x-content/0/κατ’",
+						"spanWithAtts/w",
+						"attribute/spanWithAtts/w/x-occurrence/0/1",
+						"attribute/spanWithAtts/w/x-occurrences/0/1"
+					]
+				},
+				{
+					"payload": "\n",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G25960",
+						"attribute/milestone/zaln/x-lemma/0/κατά",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/P",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/",
+						"attribute/milestone/zaln/x-morph/6/A",
+						"attribute/milestone/zaln/x-morph/7/",
+						"attribute/milestone/zaln/x-morph/8/",
+						"attribute/milestone/zaln/x-morph/9/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/1",
+						"attribute/milestone/zaln/x-content/0/κατ’"
+					]
+				},
+				{
+					"payload": "with",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G25960",
+						"attribute/milestone/zaln/x-lemma/0/κατά",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/P",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/",
+						"attribute/milestone/zaln/x-morph/6/A",
+						"attribute/milestone/zaln/x-morph/7/",
+						"attribute/milestone/zaln/x-morph/8/",
+						"attribute/milestone/zaln/x-morph/9/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/1",
+						"attribute/milestone/zaln/x-content/0/κατ’",
+						"spanWithAtts/w",
+						"attribute/spanWithAtts/w/x-occurrence/0/1",
+						"attribute/spanWithAtts/w/x-occurrences/0/1"
+					]
+				},
+				{
+					"payload": "\n",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1"
+					]
+				},
+				{
+					"payload": "godliness",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1",
+						"milestone/zaln",
+						"attribute/milestone/zaln/x-strong/0/G21500",
+						"attribute/milestone/zaln/x-lemma/0/εὐσέβεια",
+						"attribute/milestone/zaln/x-morph/0/Gr",
+						"attribute/milestone/zaln/x-morph/1/N",
+						"attribute/milestone/zaln/x-morph/2/",
+						"attribute/milestone/zaln/x-morph/3/",
+						"attribute/milestone/zaln/x-morph/4/",
+						"attribute/milestone/zaln/x-morph/5/",
+						"attribute/milestone/zaln/x-morph/6/AFS",
+						"attribute/milestone/zaln/x-morph/7/",
+						"attribute/milestone/zaln/x-occurrence/0/1",
+						"attribute/milestone/zaln/x-occurrences/0/1",
+						"attribute/milestone/zaln/x-content/0/εὐσέβειαν",
+						"spanWithAtts/w",
+						"attribute/spanWithAtts/w/x-occurrence/0/1",
+						"attribute/spanWithAtts/w/x-occurrences/0/1"
+					]
+				},
+				{
+					"payload": ",",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1"
+					]
+				},
+				{
+					"payload": " \n",
+					"scopes": [
+						"chapter/1",
+						"verse/1",
+						"verses/1"
+					]
+				}
+			]
+		}
+	]
+}
