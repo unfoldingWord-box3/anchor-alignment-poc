@@ -1,9 +1,10 @@
 import { useState } from 'react';
 import { useDeepCompareEffect } from 'use-deep-compare';
 import useQuery from '../../hooks/useQuery';
-import {getAlignmentFromProskomma} from './alignmentHelpers';
+import {getAlignmentFromProskomma, getTokensFromProskomma} from './alignmentHelpers';
+import { getSourceGlossesFromTokens } from './lexiconHelpers';
 
-export default function useAlignmentAdapter({proskomma, changeIndex}) {
+export default function useAlignmentAdapter({proskomma, changeIndex, sourceSegmentProcessor}) {
   const alignmentQueryTemplate = `{
     original: docSet(id:"unfoldingWord/el-x-koine_ugnt") {
       document(bookCode:"%bookCode%") {
@@ -81,31 +82,42 @@ export default function useAlignmentAdapter({proskomma, changeIndex}) {
         targetDocument: queryState.data?.target?.document
       });
 
-      console.log("useAlignmentAdapter // getAlignmentFromProskomma / data", queryState.data);
-      console.log("useAlignmentAdapter // getAlignmentFromProskomma / bridge", bridgeAlignments);
-      console.log("useAlignmentAdapter // getAlignmentFromProskomma / target", targetAlignments);
+      const sourceTokens = await getTokensFromProskomma({bibleDocument: queryState.data.original?.document});
+      const sourceGlosses = getSourceGlossesFromTokens({tokens:sourceTokens});
 
-      console.log("useAlignmentAdapter // getAlignmentFromProskomma / align",JSON.stringify(targetAlignments));
+      // console.log("useAlignmentAdapter // getAlignmentFromProskomma / data", queryState.data);
+      // console.log("useAlignmentAdapter // getAlignmentFromProskomma / bridge", bridgeAlignments);
+      // console.log("useAlignmentAdapter // getAlignmentFromProskomma / target", targetAlignments);
+
+      // console.log("useAlignmentAdapter // getAlignmentFromProskomma / align",JSON.stringify(targetAlignments));
+
+      //console.log("useAlignmentAdapter // getAlignmentFromProskomma / glosses",JSON.stringify(await sourceGlosses));
+
+      const _sourceSegments     = (await bridgeAlignments).sourceSegments;
+      const _referenceSegments  = (await bridgeAlignments).targetSegments;
+      const _referenceLinks     = (await bridgeAlignments).links;
+      const _sourceGlosses      = (await sourceGlosses);
+      const _targetSegments     = (await targetAlignments).targetSegments;
 
       setState({
-        sourceGlosses: null,
-        sourceSegments: bridgeAlignments.sourceSegments,
+        sourceGlosses: _sourceGlosses,
+        sourceSegments: _sourceSegments,
 
-        referenceSegments: bridgeAlignments.targetSegments,
-        referenceLinks: bridgeAlignments.links,
+        referenceSegments: _referenceSegments,
+        referenceLinks: _referenceLinks,
 
-        targetSegments: targetAlignments.targetSegments,
+        targetSegments: _targetSegments,
         userLinks: null,
       });
 
-      console.log("useAlignmentAdapter // state.sourceGlosses", state.sourceGlosses);
-      console.log("useAlignmentAdapter // state.sourceSegments", state.sourceSegments);
+      // console.log("useAlignmentAdapter // state.sourceGlosses", state.sourceGlosses);
+      // console.log("useAlignmentAdapter // state.sourceSegments", state.sourceSegments);
       
-      console.log("useAlignmentAdapter // state.referenceSegments", state.referenceSegments);
-      console.log("useAlignmentAdapter // state.referenceLinks", state.referenceLinks);
+      // console.log("useAlignmentAdapter // state.referenceSegments", state.referenceSegments);
+      // console.log("useAlignmentAdapter // state.referenceLinks", state.referenceLinks);
       
-      console.log("useAlignmentAdapter // state.targetSegments", state.targetSegments);
-      console.log("useAlignmentAdapter // state.userLinks", state.userLinks);
+      // console.log("useAlignmentAdapter // state.targetSegments", state.targetSegments);
+      // console.log("useAlignmentAdapter // state.userLinks", state.userLinks);
     }
   }, [proskomma, changeIndex, queryState.changeIndex]);
   

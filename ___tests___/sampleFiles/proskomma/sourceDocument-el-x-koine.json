@@ -1,0 +1,526 @@
+{
+    "cv": [
+     {
+      "tokens": [
+       {
+        "payload": "Παῦλος",
+        "scopes": [
+         "chapter/1",
+         "verse/1",
+         "verses/1",
+         "spanWithAtts/w",
+         "attribute/spanWithAtts/w/lemma/0/Παῦλος",
+         "attribute/spanWithAtts/w/strong/0/G39720",
+         "attribute/spanWithAtts/w/x-morph/0/Gr",
+         "attribute/spanWithAtts/w/x-morph/1/N",
+         "attribute/spanWithAtts/w/x-morph/2/",
+         "attribute/spanWithAtts/w/x-morph/3/",
+         "attribute/spanWithAtts/w/x-morph/4/",
+         "attribute/spanWithAtts/w/x-morph/5/",
+         "attribute/spanWithAtts/w/x-morph/6/NMS",
+         "attribute/spanWithAtts/w/x-morph/7/"
+        ]
+       },
+       {
+        "payload": ",",
+        "scopes": [
+         "chapter/1",
+         "verse/1",
+         "verses/1"
+        ]
+       },
+       {
+        "payload": "\n",
+        "scopes": [
+         "chapter/1",
+         "verse/1",
+         "verses/1"
+        ]
+       },
+       {
+        "payload": "δοῦλος",
+        "scopes": [
+         "chapter/1",
+         "verse/1",
+         "verses/1",
+         "spanWithAtts/w",
+         "attribute/spanWithAtts/w/lemma/0/δοῦλος",
+         "attribute/spanWithAtts/w/strong/0/G14010",
+         "attribute/spanWithAtts/w/x-morph/0/Gr",
+         "attribute/spanWithAtts/w/x-morph/1/N",
+         "attribute/spanWithAtts/w/x-morph/2/",
+         "attribute/spanWithAtts/w/x-morph/3/",
+         "attribute/spanWithAtts/w/x-morph/4/",
+         "attribute/spanWithAtts/w/x-morph/5/",
+         "attribute/spanWithAtts/w/x-morph/6/NMS",
+         "attribute/spanWithAtts/w/x-morph/7/"
+        ]
+       },
+       {
+        "payload": "\n",
+        "scopes": [
+         "chapter/1",
+         "verse/1",
+         "verses/1"
+        ]
+       },
+       {
+        "payload": "Θεοῦ",
+        "scopes": [
+         "chapter/1",
+         "verse/1",
+         "verses/1",
+         "spanWithAtts/w",
+         "attribute/spanWithAtts/w/lemma/0/θεός",
+         "attribute/spanWithAtts/w/strong/0/G23160",
+         "attribute/spanWithAtts/w/x-morph/0/Gr",
+         "attribute/spanWithAtts/w/x-morph/1/N",
+         "attribute/spanWithAtts/w/x-morph/2/",
+         "attribute/spanWithAtts/w/x-morph/3/",
+         "attribute/spanWithAtts/w/x-morph/4/",
+         "attribute/spanWithAtts/w/x-morph/5/",
+         "attribute/spanWithAtts/w/x-morph/6/GMS",
+         "attribute/spanWithAtts/w/x-morph/7/"
+        ]
+       },
+       {
+        "payload": ",",
+        "scopes": [
+         "chapter/1",
+         "verse/1",
+         "verses/1"
+        ]
+       },
+       {
+        "payload": "\n",
+        "scopes": [
+         "chapter/1",
+         "verse/1",
+         "verses/1"
+        ]
+       },
+       {
+        "payload": "ἀπόστολος",
+        "scopes": [
+         "chapter/1",
+         "verse/1",
+         "verses/1",
+         "spanWithAtts/w",
+         "attribute/spanWithAtts/w/lemma/0/ἀπόστολος",
+         "attribute/spanWithAtts/w/strong/0/G06520",
+         "attribute/spanWithAtts/w/x-morph/0/Gr",
+         "attribute/spanWithAtts/w/x-morph/1/N",
+         "attribute/spanWithAtts/w/x-morph/2/",
+         "attribute/spanWithAtts/w/x-morph/3/",
+         "attribute/spanWithAtts/w/x-morph/4/",
+         "attribute/spanWithAtts/w/x-morph/5/",
+         "attribute/spanWithAtts/w/x-morph/6/NMS",
+         "attribute/spanWithAtts/w/x-morph/7/"
+        ]
+       },
+       {
+        "payload": "\n",
+        "scopes": [
+         "chapter/1",
+         "verse/1",
+         "verses/1"
+        ]
+       },
+       {
+        "payload": "δὲ",
+        "scopes": [
+         "chapter/1",
+         "verse/1",
+         "verses/1",
+         "spanWithAtts/w",
+         "attribute/spanWithAtts/w/lemma/0/δέ",
+         "attribute/spanWithAtts/w/strong/0/G11610",
+         "attribute/spanWithAtts/w/x-morph/0/Gr",
+         "attribute/spanWithAtts/w/x-morph/1/CC",
+         "attribute/spanWithAtts/w/x-morph/2/",
+         "attribute/spanWithAtts/w/x-morph/3/",
+         "attribute/spanWithAtts/w/x-morph/4/",
+         "attribute/spanWithAtts/w/x-morph/5/",
+         "attribute/spanWithAtts/w/x-morph/6/",
+         "attribute/spanWithAtts/w/x-morph/7/",
+         "attribute/spanWithAtts/w/x-morph/8/",
+         "attribute/spanWithAtts/w/x-morph/9/"
+        ]
+       },
+       {
+        "payload": "\n",
+        "scopes": [
+         "chapter/1",
+         "verse/1",
+         "verses/1"
+        ]
+       },
+       {
+        "payload": "Ἰησοῦ",
+        "scopes": [
+         "chapter/1",
+         "verse/1",
+         "verses/1",
+         "spanWithAtts/w",
+         "attribute/spanWithAtts/w/lemma/0/Ἰησοῦς",
+         "attribute/spanWithAtts/w/strong/0/G24240",
+         "attribute/spanWithAtts/w/x-morph/0/Gr",
+         "attribute/spanWithAtts/w/x-morph/1/N",
+         "attribute/spanWithAtts/w/x-morph/2/",
+         "attribute/spanWithAtts/w/x-morph/3/",
+         "attribute/spanWithAtts/w/x-morph/4/",
+         "attribute/spanWithAtts/w/x-morph/5/",
+         "attribute/spanWithAtts/w/x-morph/6/GMS",
+         "attribute/spanWithAtts/w/x-morph/7/"
+        ]
+       },
+       {
+        "payload": "\n",
+        "scopes": [
+         "chapter/1",
+         "verse/1",
+         "verses/1"
+        ]
+       },
+       {
+        "payload": "Χριστοῦ",
+        "scopes": [
+         "chapter/1",
+         "verse/1",
+         "verses/1",
+         "spanWithAtts/w",
+         "attribute/spanWithAtts/w/lemma/0/χριστός",
+         "attribute/spanWithAtts/w/strong/0/G55470",
+         "attribute/spanWithAtts/w/x-morph/0/Gr",
+         "attribute/spanWithAtts/w/x-morph/1/N",
+         "attribute/spanWithAtts/w/x-morph/2/",
+         "attribute/spanWithAtts/w/x-morph/3/",
+         "attribute/spanWithAtts/w/x-morph/4/",
+         "attribute/spanWithAtts/w/x-morph/5/",
+         "attribute/spanWithAtts/w/x-morph/6/GMS",
+         "attribute/spanWithAtts/w/x-morph/7/"
+        ]
+       },
+       {
+        "payload": ",",
+        "scopes": [
+         "chapter/1",
+         "verse/1",
+         "verses/1"
+        ]
+       },
+       {
+        "payload": "\n",
+        "scopes": [
+         "chapter/1",
+         "verse/1",
+         "verses/1"
+        ]
+       },
+       {
+        "payload": "κατὰ",
+        "scopes": [
+         "chapter/1",
+         "verse/1",
+         "verses/1",
+         "spanWithAtts/w",
+         "attribute/spanWithAtts/w/lemma/0/κατά",
+         "attribute/spanWithAtts/w/strong/0/G25960",
+         "attribute/spanWithAtts/w/x-morph/0/Gr",
+         "attribute/spanWithAtts/w/x-morph/1/P",
+         "attribute/spanWithAtts/w/x-morph/2/",
+         "attribute/spanWithAtts/w/x-morph/3/",
+         "attribute/spanWithAtts/w/x-morph/4/",
+         "attribute/spanWithAtts/w/x-morph/5/",
+         "attribute/spanWithAtts/w/x-morph/6/A",
+         "attribute/spanWithAtts/w/x-morph/7/",
+         "attribute/spanWithAtts/w/x-morph/8/",
+         "attribute/spanWithAtts/w/x-morph/9/"
+        ]
+       },
+       {
+        "payload": "\n",
+        "scopes": [
+         "chapter/1",
+         "verse/1",
+         "verses/1"
+        ]
+       },
+       {
+        "payload": "πίστιν",
+        "scopes": [
+         "chapter/1",
+         "verse/1",
+         "verses/1",
+         "spanWithAtts/w",
+         "attribute/spanWithAtts/w/lemma/0/πίστις",
+         "attribute/spanWithAtts/w/strong/0/G41020",
+         "attribute/spanWithAtts/w/x-morph/0/Gr",
+         "attribute/spanWithAtts/w/x-morph/1/N",
+         "attribute/spanWithAtts/w/x-morph/2/",
+         "attribute/spanWithAtts/w/x-morph/3/",
+         "attribute/spanWithAtts/w/x-morph/4/",
+         "attribute/spanWithAtts/w/x-morph/5/",
+         "attribute/spanWithAtts/w/x-morph/6/AFS",
+         "attribute/spanWithAtts/w/x-morph/7/"
+        ]
+       },
+       {
+        "payload": "\n",
+        "scopes": [
+         "chapter/1",
+         "verse/1",
+         "verses/1"
+        ]
+       },
+       {
+        "payload": "ἐκλεκτῶν",
+        "scopes": [
+         "chapter/1",
+         "verse/1",
+         "verses/1",
+         "spanWithAtts/w",
+         "attribute/spanWithAtts/w/lemma/0/ἐκλεκτός",
+         "attribute/spanWithAtts/w/strong/0/G15880",
+         "attribute/spanWithAtts/w/x-morph/0/Gr",
+         "attribute/spanWithAtts/w/x-morph/1/NS",
+         "attribute/spanWithAtts/w/x-morph/2/",
+         "attribute/spanWithAtts/w/x-morph/3/",
+         "attribute/spanWithAtts/w/x-morph/4/",
+         "attribute/spanWithAtts/w/x-morph/5/GMP",
+         "attribute/spanWithAtts/w/x-morph/6/"
+        ]
+       },
+       {
+        "payload": "\n",
+        "scopes": [
+         "chapter/1",
+         "verse/1",
+         "verses/1"
+        ]
+       },
+       {
+        "payload": "Θεοῦ",
+        "scopes": [
+         "chapter/1",
+         "verse/1",
+         "verses/1",
+         "spanWithAtts/w",
+         "attribute/spanWithAtts/w/lemma/0/θεός",
+         "attribute/spanWithAtts/w/strong/0/G23160",
+         "attribute/spanWithAtts/w/x-morph/0/Gr",
+         "attribute/spanWithAtts/w/x-morph/1/N",
+         "attribute/spanWithAtts/w/x-morph/2/",
+         "attribute/spanWithAtts/w/x-morph/3/",
+         "attribute/spanWithAtts/w/x-morph/4/",
+         "attribute/spanWithAtts/w/x-morph/5/",
+         "attribute/spanWithAtts/w/x-morph/6/GMS",
+         "attribute/spanWithAtts/w/x-morph/7/"
+        ]
+       },
+       {
+        "payload": ",",
+        "scopes": [
+         "chapter/1",
+         "verse/1",
+         "verses/1"
+        ]
+       },
+       {
+        "payload": "\n",
+        "scopes": [
+         "chapter/1",
+         "verse/1",
+         "verses/1"
+        ]
+       },
+       {
+        "payload": "καὶ",
+        "scopes": [
+         "chapter/1",
+         "verse/1",
+         "verses/1",
+         "spanWithAtts/w",
+         "attribute/spanWithAtts/w/lemma/0/καί",
+         "attribute/spanWithAtts/w/strong/0/G25320",
+         "attribute/spanWithAtts/w/x-morph/0/Gr",
+         "attribute/spanWithAtts/w/x-morph/1/CC",
+         "attribute/spanWithAtts/w/x-morph/2/",
+         "attribute/spanWithAtts/w/x-morph/3/",
+         "attribute/spanWithAtts/w/x-morph/4/",
+         "attribute/spanWithAtts/w/x-morph/5/",
+         "attribute/spanWithAtts/w/x-morph/6/",
+         "attribute/spanWithAtts/w/x-morph/7/",
+         "attribute/spanWithAtts/w/x-morph/8/",
+         "attribute/spanWithAtts/w/x-morph/9/"
+        ]
+       },
+       {
+        "payload": "\n",
+        "scopes": [
+         "chapter/1",
+         "verse/1",
+         "verses/1"
+        ]
+       },
+       {
+        "payload": "ἐπίγνωσιν",
+        "scopes": [
+         "chapter/1",
+         "verse/1",
+         "verses/1",
+         "spanWithAtts/w",
+         "attribute/spanWithAtts/w/lemma/0/ἐπίγνωσις",
+         "attribute/spanWithAtts/w/strong/0/G19220",
+         "attribute/spanWithAtts/w/x-morph/0/Gr",
+         "attribute/spanWithAtts/w/x-morph/1/N",
+         "attribute/spanWithAtts/w/x-morph/2/",
+         "attribute/spanWithAtts/w/x-morph/3/",
+         "attribute/spanWithAtts/w/x-morph/4/",
+         "attribute/spanWithAtts/w/x-morph/5/",
+         "attribute/spanWithAtts/w/x-morph/6/AFS",
+         "attribute/spanWithAtts/w/x-morph/7/"
+        ]
+       },
+       {
+        "payload": "\n",
+        "scopes": [
+         "chapter/1",
+         "verse/1",
+         "verses/1"
+        ]
+       },
+       {
+        "payload": "ἀληθείας",
+        "scopes": [
+         "chapter/1",
+         "verse/1",
+         "verses/1",
+         "spanWithAtts/w",
+         "attribute/spanWithAtts/w/lemma/0/ἀλήθεια",
+         "attribute/spanWithAtts/w/strong/0/G02250",
+         "attribute/spanWithAtts/w/x-morph/0/Gr",
+         "attribute/spanWithAtts/w/x-morph/1/N",
+         "attribute/spanWithAtts/w/x-morph/2/",
+         "attribute/spanWithAtts/w/x-morph/3/",
+         "attribute/spanWithAtts/w/x-morph/4/",
+         "attribute/spanWithAtts/w/x-morph/5/",
+         "attribute/spanWithAtts/w/x-morph/6/GFS",
+         "attribute/spanWithAtts/w/x-morph/7/"
+        ]
+       },
+       {
+        "payload": ",",
+        "scopes": [
+         "chapter/1",
+         "verse/1",
+         "verses/1"
+        ]
+       },
+       {
+        "payload": "\n",
+        "scopes": [
+         "chapter/1",
+         "verse/1",
+         "verses/1"
+        ]
+       },
+       {
+        "payload": "τῆς",
+        "scopes": [
+         "chapter/1",
+         "verse/1",
+         "verses/1",
+         "spanWithAtts/w",
+         "attribute/spanWithAtts/w/lemma/0/ὁ",
+         "attribute/spanWithAtts/w/strong/0/G35880",
+         "attribute/spanWithAtts/w/x-morph/0/Gr",
+         "attribute/spanWithAtts/w/x-morph/1/EA",
+         "attribute/spanWithAtts/w/x-morph/2/",
+         "attribute/spanWithAtts/w/x-morph/3/",
+         "attribute/spanWithAtts/w/x-morph/4/",
+         "attribute/spanWithAtts/w/x-morph/5/GFS",
+         "attribute/spanWithAtts/w/x-morph/6/"
+        ]
+       },
+       {
+        "payload": "\n",
+        "scopes": [
+         "chapter/1",
+         "verse/1",
+         "verses/1"
+        ]
+       },
+       {
+        "payload": "κατ",
+        "scopes": [
+         "chapter/1",
+         "verse/1",
+         "verses/1",
+         "spanWithAtts/w",
+         "attribute/spanWithAtts/w/lemma/0/κατά",
+         "attribute/spanWithAtts/w/strong/0/G25960",
+         "attribute/spanWithAtts/w/x-morph/0/Gr",
+         "attribute/spanWithAtts/w/x-morph/1/P",
+         "attribute/spanWithAtts/w/x-morph/2/",
+         "attribute/spanWithAtts/w/x-morph/3/",
+         "attribute/spanWithAtts/w/x-morph/4/",
+         "attribute/spanWithAtts/w/x-morph/5/",
+         "attribute/spanWithAtts/w/x-morph/6/A",
+         "attribute/spanWithAtts/w/x-morph/7/",
+         "attribute/spanWithAtts/w/x-morph/8/",
+         "attribute/spanWithAtts/w/x-morph/9/"
+        ]
+       },
+       {
+        "payload": "’",
+        "scopes": [
+         "chapter/1",
+         "verse/1",
+         "verses/1",
+         "spanWithAtts/w",
+         "attribute/spanWithAtts/w/lemma/0/κατά",
+         "attribute/spanWithAtts/w/strong/0/G25960",
+         "attribute/spanWithAtts/w/x-morph/0/Gr",
+         "attribute/spanWithAtts/w/x-morph/1/P",
+         "attribute/spanWithAtts/w/x-morph/2/",
+         "attribute/spanWithAtts/w/x-morph/3/",
+         "attribute/spanWithAtts/w/x-morph/4/",
+         "attribute/spanWithAtts/w/x-morph/5/",
+         "attribute/spanWithAtts/w/x-morph/6/A",
+         "attribute/spanWithAtts/w/x-morph/7/",
+         "attribute/spanWithAtts/w/x-morph/8/",
+         "attribute/spanWithAtts/w/x-morph/9/"
+        ]
+       },
+       {
+        "payload": "\n",
+        "scopes": [
+         "chapter/1",
+         "verse/1",
+         "verses/1"
+        ]
+       },
+       {
+        "payload": "εὐσέβειαν",
+        "scopes": [
+         "chapter/1",
+         "verse/1",
+         "verses/1",
+         "spanWithAtts/w",
+         "attribute/spanWithAtts/w/lemma/0/εὐσέβεια",
+         "attribute/spanWithAtts/w/strong/0/G21500",
+         "attribute/spanWithAtts/w/x-morph/0/Gr",
+         "attribute/spanWithAtts/w/x-morph/1/N",
+         "attribute/spanWithAtts/w/x-morph/2/",
+         "attribute/spanWithAtts/w/x-morph/3/",
+         "attribute/spanWithAtts/w/x-morph/4/",
+         "attribute/spanWithAtts/w/x-morph/5/",
+         "attribute/spanWithAtts/w/x-morph/6/AFS",
+         "attribute/spanWithAtts/w/x-morph/7/"
+        ]
+       }
+      ]
+     }
+    ]
+   }
