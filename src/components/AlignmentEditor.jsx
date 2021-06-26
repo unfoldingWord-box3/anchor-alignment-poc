@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+import React, { useMemo } from 'react';
 import {AlignmentEditor} from 'alignment-editor-rcl';
 
 import useProskomma from '../hooks/useProskomma';
@@ -15,7 +15,7 @@ export default function Component (props) {
       { owner: 'unfoldingWord', lang: 'el-x-koine', abbr: 'ugnt' },
       { owner: 'unfoldingWord', lang: 'en', abbr: 'ult', tag: '25' },
       // TODO: Proskomma has unhandled parsing issues with this ULB ?
-      // Diagnosed: I think its the "S5" tag.
+      // Diagnosed: I think it's the "S5" tag.
       //{ owner: 'Door43-Catalog', lang: 'es-419', abbr: 'ulb' },
       { owner: 'ru_gl', lang: 'ru', abbr: 'rlob' },
     ];
@@ -32,13 +32,9 @@ export default function Component (props) {
   // 5. render alignment editor
     // return in this component
 
-  const [stateChangeTimestamp, setStateChangeTimestamp] = useState(new Date());
-
   const onState = (a) => {
     console.log('STATE UPDATED', a);
-    setStateChangeTimestamp(new Date());
   };
-
 
   return (
     useMemo(() => {

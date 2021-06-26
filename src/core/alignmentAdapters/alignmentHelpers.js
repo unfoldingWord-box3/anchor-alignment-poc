@@ -37,7 +37,7 @@ const getLinksFromTokens = ({sourceTokens, targetTokens})=> {
     const linkCandidates = targetTokens?.map((targetToken, index)=> {
       if (
         targetToken.alignedToken === sourceToken.payload
-        && targetToken.occurrence == currentOccurrence
+        && targetToken.occurrence === currentOccurrence
       ){
         return index;
       } else {
@@ -107,7 +107,7 @@ const getTokensFromProskomma = ({bibleDocument}) => {
         payload: tokenized[0],
         //alignedToken: getAlignedToken({token}),
         alignedToken: getAttributeFromScopes({scopes: token.scopes, scopeFilter: SCOPE_FILTER_ZALN_XCONTENT}),
-        occurrence: getAttributeFromScopes({scopes: token.scopes, scopeFilter: SCOPE_FILTER_ZALN_OCCURRENCE}),
+        occurrence: parseInt(getAttributeFromScopes({scopes: token.scopes, scopeFilter: SCOPE_FILTER_ZALN_OCCURRENCE})) || null,
         occurrences: getAttributeFromScopes({scopes: token.scopes, scopeFilter: SCOPE_FILTER_ZALN_OCCURRENCES}),
         pos: getAttributeFromScopes({scopes: token.scopes, scopeFilter: SCOPE_FILTER_SPANWITHATTS_XMORPH_1})
               || getAttributeFromScopes({scopes: token.scopes, scopeFilter: SCOPE_FILTER_ZALN_XMORPH_1})
