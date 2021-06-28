@@ -1,8 +1,8 @@
 import {senses} from '../lexicon/helpers';
 
 // Specially for alignment-editor-rcl.
-// TODO: 
-export const getSourceGlossesFromTokens = async ({tokens}) => {
+// TODO: Refactor/separate
+export const getGlossesFromLexicon = async ({tokens}) => {
     // An array of arrays of senses:
     const tokensSenses = await getSensesFromTokens({tokens});
     // An array of arrays of strings.
@@ -43,4 +43,27 @@ export const getSensesFromTokens = async ({tokens}) => {
             return "ERROR!! " + error;
         }
     }));
+};
+
+// Expects 2 arrays of tokens from the SAME VERSE.
+export const getGlossesFromReferenceTokens = ({sourceTokens, referenceTokens}) => {
+    const occurrenceCounter = [];
+
+    return sourceTokens?.map((source, index) => {
+        if (!occurrenceCounter[source.payload]) {
+            occurrenceCounter[source.payload] = 1;
+        } else {
+            occurrenceCounter[source.payload]++;
+        }
+        const currentOccurrence = occurrenceCounter[source.payload];
+
+        const alignedReferenceTokens = referenceTokens?.filter(
+            (reference) => reference.alignedToken === source.payload && reference.occurrence === currentOccurrence
+        )?.map(reference => reference.payload)?.join(' ');
+
+        return {
+            position: index,
+            glossText: alignedReferenceTokens
+        };
+    });
 };

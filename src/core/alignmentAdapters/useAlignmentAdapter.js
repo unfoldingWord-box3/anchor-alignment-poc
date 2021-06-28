@@ -2,9 +2,9 @@ import { useState } from 'react';
 import { useDeepCompareEffect } from 'use-deep-compare';
 import useQuery from '../../hooks/useQuery';
 import {getAlignmentFromProskomma, getTokensFromProskomma} from './alignmentHelpers';
-import { getSourceGlossesFromTokens } from './lexiconHelpers';
+import { getGlossesFromLexicon, getGlossesFromReferenceTokens } from './lexiconHelpers';
 
-export default function useAlignmentAdapter({proskomma, changeIndex, sourceSegmentProcessor}) {
+export default function useAlignmentAdapter({proskomma, changeIndex}) {
   const alignmentQueryTemplate = `{
     original: docSet(id:"unfoldingWord/el-x-koine_ugnt") {
       document(bookCode:"%bookCode%") {
@@ -83,7 +83,9 @@ export default function useAlignmentAdapter({proskomma, changeIndex, sourceSegme
       });
 
       const sourceTokens = await getTokensFromProskomma({bibleDocument: queryState.data.original?.document});
-      const sourceGlosses = getSourceGlossesFromTokens({tokens:sourceTokens});
+      const referenceTokens = await getTokensFromProskomma({bibleDocument: queryState.data.bridge?.document});
+      //const sourceGlosses = getGlossesFromLexicon({tokens:sourceTokens});
+      const sourceGlosses = getGlossesFromReferenceTokens({sourceTokens, referenceTokens});
 
       // console.log("useAlignmentAdapter // getAlignmentFromProskomma / data", queryState.data);
       // console.log("useAlignmentAdapter // getAlignmentFromProskomma / bridge", bridgeAlignments);
