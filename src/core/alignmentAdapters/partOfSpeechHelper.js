@@ -7,12 +7,21 @@ import clearTitusData from './clearTitusData';
  * @returns {Array} source segments with PoS 
  */
 export default function partOfSpeechHelper(sourceSegments) {
-  return sourceSegments.map((sourceSegment, index) => {
-    const partOfSpeech = findPartOfSpeech(sourceSegment.text, index)
+  return sourceSegments.map((sourceSegment) => {
+    const partOfSpeech = findPartOfSpeech(sourceSegment.text)
     return {...sourceSegment, partOfSpeech }
   });
 };
 
-function findPartOfSpeech(ugntText, index) {
-  return clearTitusData[index]?.partOfSpeech;
+function findPartOfSpeech(ugntText) {
+  const normalizedText = normalize(ugntText);
+
+  return clearTitusData.find((datum) => {
+    const normalizedDatumText = normalize(datum.ugnt);
+    return normalizedDatumText === normalizedText;
+  })?.partOfSpeech;
 };
+
+function normalize(stringThing) {
+  return stringThing.normalize("NFC");
+}
