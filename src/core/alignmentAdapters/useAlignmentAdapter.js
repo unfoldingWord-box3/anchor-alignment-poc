@@ -3,6 +3,7 @@ import { useDeepCompareEffect } from 'use-deep-compare';
 import useQuery from '../../hooks/useQuery';
 import {getAlignmentFromProskomma, getTokensFromProskomma} from './alignmentHelpers';
 import { getGlossesFromLexicon, getGlossesFromReferenceTokens } from './lexiconHelpers';
+import partOfSpeechHelper from './partOfSpeechHelper';
 
 export default function useAlignmentAdapter({proskomma, changeIndex}) {
   const alignmentQueryTemplate = `{
@@ -103,7 +104,7 @@ export default function useAlignmentAdapter({proskomma, changeIndex}) {
 
       setState({
         sourceGlosses: _sourceGlosses,
-        sourceSegments: _sourceSegments,
+        sourceSegments: partOfSpeechHelper(_sourceSegments),
 
         referenceSegments: _referenceSegments,
         referenceLinks: _referenceLinks,
