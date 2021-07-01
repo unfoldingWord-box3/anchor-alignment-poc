@@ -4,41 +4,24 @@ import {AlignmentEditor} from 'alignment-editor-rcl';
 import useProskomma from '../hooks/useProskomma';
 import useAlignmentAdapter from '../core/alignmentAdapters/useAlignmentAdapter';
 
-export default function Component (props) {
-  // 1. set reference {book: 'tit', chapter: 2, verse: 1}
-    // bible-reference-rcl 
-    const books = [ 'tit' ];
-    const reference = { book: books[0], chapter: 1, verse: 1};
-  // 2. fetch Titus from source, gateway, and target
-    // proskui (abstract file fetching from proskomma import)
-    const resources = [
-      { owner: 'unfoldingWord', lang: 'el-x-koine', abbr: 'ugnt' },
-      { owner: 'unfoldingWord', lang: 'en', abbr: 'ult', tag: '25' },
-      // TODO: Proskomma has unhandled parsing issues with this ULB ?
-      // Diagnosed: I think it's the "S5" tag.
-      //{ owner: 'Door43-Catalog', lang: 'es-419', abbr: 'ulb' },
-      { owner: 'ru_gl', lang: 'ru', abbr: 'rlob' },
-    ];
-  // 3. parse usfm/alignment data
-  // proskui (proskomma import hook)
-  const {state: { proskomma, changeIndex }} = useProskomma({ resources, books });
-  // const query = ``;
-  // const {state: {query: lastQuery, data, errors, changeIndex: lastChange}} = useQuery({proskomma, changeIndex, query});
-  const {state} = useAlignmentAdapter({proskomma, changeIndex});
-  
-  // 4. fetch glosses for current verse
-    // ?? strongs number from word objects in usfm => lexicon lookup
-    // create custom hook
-  // 5. render alignment editor
-    // return in this component
+export default function Component ({reference}) {
+  const resources = [
+    { owner: 'unfoldingWord', lang: 'el-x-koine', abbr: 'ugnt' },
+    { owner: 'unfoldingWord', lang: 'en', abbr: 'ult', tag: '25' },
+    // TODO: Proskomma has unhandled parsing issues with this ULB ?
+    // Diagnosed: I think it's the "S5" tag.
+    //{ owner: 'Door43-Catalog', lang: 'es-419', abbr: 'ulb' },
+    { owner: 'ru_gl', lang: 'ru', abbr: 'rlob' },
+  ];
 
+  const {state: { proskomma, changeIndex }} = useProskomma({ resources, books: [reference.bookId] });
+  const {state} = useAlignmentAdapter({proskomma, reference, changeIndex});
+  
   const onState = (a) => {
     console.log('STATE UPDATED', a);
   };
 
   return (
-    useMemo(() => {
-      return (
           // Strange state issues if we START with null props.
           // TODO: esp investigate referenceLinks.
           state && state.referenceLinks && state.referenceLinks.length > 0
@@ -72,7 +55,5 @@ export default function Component (props) {
 
           stateUpdatedHook={onState}
         />
-      );
-    }, [state])
   );
 };
