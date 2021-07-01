@@ -17,7 +17,7 @@ export default function useQuery({proskomma, changeIndex, query}) {
       let errors = [];
   
       try {
-        const { errors: _errors, data: _data } = await proskomma.gqlQuery(state.query);
+        const { errors: _errors, data: _data } = await proskomma.gqlQuery(query);
         // debugger
         errors = _errors;
         data = _data;
@@ -32,7 +32,7 @@ export default function useQuery({proskomma, changeIndex, query}) {
         errors,
       });
     };
-  }, [proskomma, changeIndex, state]);
+  }, [proskomma, query, changeIndex, state]);
 
   return {
     state,
