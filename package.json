@@ -10,7 +10,7 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
-    "alignment-editor-rcl": "^0.2.16",
+    "alignment-editor-rcl": "^0.2.17",
     "bible-reference-rcl": "0.2.1",
     "deep-freeze": "^0.0.1",
     "gitea-react-toolkit": "^1.9.1",
