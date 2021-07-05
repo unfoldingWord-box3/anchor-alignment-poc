@@ -18,7 +18,7 @@ export default function useAlignmentAdapter({proskomma, reference, changeIndex})
         }
       }
     }
-    bridge: docSet(id:"unfoldingWord/en_ult") {
+    bridge: docSet(id:"translate_test/es-419_gst") {
       document(bookCode:"%bookCode%") {
         cv(
           chapter:"%chapter%"
@@ -29,7 +29,7 @@ export default function useAlignmentAdapter({proskomma, reference, changeIndex})
         }
       }
     }
-    target: docSet(id:"ru_gl/ru_rlob") {
+    target: docSet(id:"unfoldingWord/en_ult") {
       document(bookCode:"%bookCode%") {
         cv(
           chapter:"%chapter%"
