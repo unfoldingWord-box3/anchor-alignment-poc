@@ -2658,10 +2658,10 @@ ajv@^7.0.2:
     require-from-string "^2.0.2"
     uri-js "^4.2.2"
 
-alignment-editor-rcl@^0.2.15:
-  version "0.2.15"
-  resolved "https://registry.yarnpkg.com/alignment-editor-rcl/-/alignment-editor-rcl-0.2.15.tgz#c2f749ef8b7edf9fe0a6f73102bcf6f229dd8f83"
-  integrity sha512-nN64p3BGGnIrpS+KXUIwODzSFJ4GU2ctTOxWgXrtnhmWLO12Q3CRDMp43CPWSi9xJVofI6+jDiuz6miP0Dm4ZA==
+alignment-editor-rcl@^0.2.17:
+  version "0.2.17"
+  resolved "https://registry.yarnpkg.com/alignment-editor-rcl/-/alignment-editor-rcl-0.2.17.tgz#1fa11fdd61f31ce69d8c91504f84f49d666810bc"
+  integrity sha512-sAptiSYLCyZr3p5q5s8buJhiD4BYPq79Hy5yFOl8UynaJfaDYo5t5nIwUmYQEkOmU5fsZ8C1qFR7usYSsLCHWQ==
   dependencies:
     "@fortawesome/fontawesome-svg-core" "^1.2.32"
     "@fortawesome/free-solid-svg-icons" "^5.15.1"
