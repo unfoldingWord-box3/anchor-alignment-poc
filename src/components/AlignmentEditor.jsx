@@ -9,9 +9,8 @@ export default function Component ({reference}) {
     { owner: 'unfoldingWord', lang: 'el-x-koine', abbr: 'ugnt' },
     { owner: 'unfoldingWord', lang: 'en', abbr: 'ult', tag: '25' },
     // TODO: Proskomma has unhandled parsing issues with this ULB ?
-    // Diagnosed: I think it's the "S5" tag.
     //{ owner: 'Door43-Catalog', lang: 'es-419', abbr: 'ulb' },
-    { owner: 'ru_gl', lang: 'ru', abbr: 'rlob' },
+    { owner: 'translate_test', lang: 'es-419', abbr: 'gst' },
   ];
 
   const {state: { proskomma, changeIndex }} = useProskomma({ resources, books: [reference.bookId] });
